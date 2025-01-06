@@ -1,13 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { tempoVitePlugin as tempo } from "tempo-devtools"
+import { tempo } from "tempo-devtools/dist/vite";
 
 const conditionalPlugins = [];
 
+// @ts-ignore
 if (process.env.TEMPO) {
   conditionalPlugins.push('tempo-devtools/dist/babel-plugin');
 }
-
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,7 +15,9 @@ export default defineConfig({
     babel: {
       plugins: conditionalPlugins,
     }
-  }), tempo()],
+  }),
+  tempo()
+],
   resolve: {
     preserveSymlinks: true,
   }

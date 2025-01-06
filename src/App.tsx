@@ -1,7 +1,6 @@
-import { StrictMode, Suspense } from 'react'
-// @ts-ignore
-import routes from "tempo-routes";
-import { useRoutes, Routes, Route } from 'react-router-dom'
+import { Suspense } from 'react';
+import routes from 'tempo-routes';
+import { useRoutes, Routes, Route } from 'react-router-dom';
 import Home from './components/home';
 
 function App() {
