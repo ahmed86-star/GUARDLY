@@ -13,7 +13,10 @@ if (process.env.TEMPO) {
 // https://vitejs.dev/config/
 export default defineConfig({
   optimizeDeps: {
-    entries: ["src/main.tsx", "src/tempobook/dynamic/src/components/**/*"],
+    entries: [
+      "src/main.tsx", 
+      "src/tempobook/**/*"
+    ],
   },
   plugins: [
     react({
