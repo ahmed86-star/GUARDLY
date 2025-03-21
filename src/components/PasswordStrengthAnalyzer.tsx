@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Input } from "./ui/input";
-import { Progress } from "./ui/progress";
-import { Button } from "./ui/button";
+import { Input } from "@/components/ui/input";
+import { Progress } from "@/components/ui/progress";
+import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import {
   Shield,
