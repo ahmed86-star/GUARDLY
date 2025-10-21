@@ -1,0 +1,24 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="black"/>
+  <g transform="translate(75, 50)">
+    <!-- House/Shield Shape -->
+    <path d="M75 0L150 50V100H0V50L75 0Z" fill="white"/>
+    
+    <!-- Lock Body -->
+    <path d="M45 60C45 43.4315 58.4315 30 75 30C91.5685 30 105 43.4315 105 60V80H45V60Z" fill="black"/>
+    
+    <!-- Lock Bottom -->
+    <circle cx="75" cy="110" r="40" fill="black"/>
+    
+    <!-- Keyhole -->
+    <circle cx="75" cy="110" r="10" fill="white"/>
+    <rect x="70" y="110" width="10" height="15" fill="white"/>
+    
+    <!-- Radar/Signal Arcs -->
+    <path d="M25 150C25 122.386 47.3858 100 75 100C102.614 100 125 122.386 125 150" stroke="white" stroke-width="10"/>
+    <path d="M40 150C40 130.67 55.67 115 75 115C94.33 115 110 130.67 110 150" stroke="white" stroke-width="10"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="150" y="250" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">GUARDLY</text>
+</svg>
