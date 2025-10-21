@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import PasswordGenerator from "./PasswordGenerator";
 import PasswordStrengthAnalyzer from "./PasswordStrengthAnalyzer";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
-import { Card, CardContent } from "./ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Card, CardContent } from "@/components/ui/card";
 import { Shield, KeyRound } from "lucide-react";
 
 interface PasswordToolsProps {

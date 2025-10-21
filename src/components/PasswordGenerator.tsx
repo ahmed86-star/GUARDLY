@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { Copy, RefreshCw, Check } from "lucide-react";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
-import { Slider } from "./ui/slider";
-import { Switch } from "./ui/switch";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Slider } from "@/components/ui/slider";
+import { Switch } from "@/components/ui/switch";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "./ui/tooltip";
+} from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 
 interface PasswordGeneratorProps {
