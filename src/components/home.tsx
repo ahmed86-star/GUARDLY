@@ -3,9 +3,6 @@ import Header from "./Header";
 import BreachChecker from "./BreachChecker";
 import PasswordTools from "./PasswordTools";
 import SecurityTips from "./SecurityTips";
-import ConvexSecurityDashboard from "./ConvexSecurityDashboard";
-import LiveActivityFeed from "./LiveActivityFeed";
-import PasswordStrengthAnalyzerConvex from "./PasswordStrengthAnalyzerConvex";
 const Home: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
     // Check if user has a preference stored in localStorage
@@ -56,16 +53,6 @@ const Home: React.FC = () => {
         </section>
 
         <section className="grid grid-cols-1 gap-10">
-          <div className="w-full max-w-5xl mx-auto">
-            <ConvexSecurityDashboard />
-          </div>
-
-          {/* Live Activity Feed and Password Analyzer - Side by Side */}
-          <div className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-            <LiveActivityFeed />
-            <PasswordStrengthAnalyzerConvex />
-          </div>
-
           <div className="w-full max-w-5xl mx-auto">
             <BreachChecker />
           </div>
